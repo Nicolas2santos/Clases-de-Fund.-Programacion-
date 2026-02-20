@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(){
+
+float dia1, dia2, dia3, dia4, dia5, dia6, dia7, total;
+
+printf("Introduce el total ventas del dia Lunes: ");
+scanf("%f", &dia1);
+
+printf("Introduce el total ventas del dia Martes: ");
+scanf("%f", &dia2);
+
+printf("Introduce el total ventas del dia Miercoles: ");
+scanf("%f", &dia3);
+
+printf("Introduce el total ventas del dia Jueves: ");
+scanf("%f", &dia4);
+
+printf("Introduce el total ventas del dia Viernes: ");
+scanf("%f", &dia5);
+
+printf("Introduce el total ventas del dia Sabado: ");
+scanf("%f", &dia6);
+
+printf("Introduce el total ventas del dia Domingo: ");
+scanf("%f", &dia7);
+
+total = dia1 + dia2 + dia3 + dia4 + dia5 + dia6 + dia7;
+
+printf("El total de ventas de la semana es: %.2f\n", total);
+
+return 0;
+
+}
